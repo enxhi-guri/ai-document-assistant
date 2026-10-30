@@ -1,0 +1,15 @@
+START HERE
+
+1. Open this folder in VS Code.
+2. Terminal > New Terminal.
+3. Run these commands one at a time:
+
+   python3 -m venv .venv
+   source .venv/bin/activate
+   python -m pip install -r requirements.txt
+   streamlit run app.py
+
+4. Choose "Use example budget PDF" in the app.
+5. Try: How much do I pay for housing?
+
+The first install/model download may take time. A Gemini API key is OPTIONAL for local semantic retrieval, but needed for generated AI answers. See README.md for key setup and privacy notes.
